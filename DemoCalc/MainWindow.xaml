@@ -1,0 +1,22 @@
+﻿<Window x:Class="DemoCalc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoCalc"
+        mc:Ignorable="d"
+        Title="Simple Calculator" Height="450" Width="500">
+    <Grid Margin="0,0,3.6,0">
+        <TextBlock HorizontalAlignment="Left" Margin="94,73,0,0" TextWrapping="Wrap" Text="First Number" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="94,110,0,0" TextWrapping="Wrap" Text="Second Number" VerticalAlignment="Top"/>
+        <Label Content="Calculator" HorizontalAlignment="Left" Margin="177,0,0,0" FontSize="24" FontWeight="Bold" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="239,72,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="239,103,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="259,219,0,0" TextWrapping="Wrap" Text="Result" VerticalAlignment="Top"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="94,168,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Substract" HorizontalAlignment="Left" Margin="94,192,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Multiply" HorizontalAlignment="Left" Margin="94,217,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Divide" HorizontalAlignment="Left" Margin="94,241,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
