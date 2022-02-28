@@ -5,18 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DemoCalc"
         mc:Ignorable="d"
-        Title="Simple Calculator" Height="450" Width="500">
+        Title="Veni Demo App " Height="450" Width="800">
     <Grid Margin="0,0,3.6,0">
         <TextBlock HorizontalAlignment="Left" Margin="94,73,0,0" TextWrapping="Wrap" Text="First Number" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="94,110,0,0" TextWrapping="Wrap" Text="Second Number" VerticalAlignment="Top"/>
         <Label Content="Calculator" HorizontalAlignment="Left" Margin="177,0,0,0" FontSize="24" FontWeight="Bold" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="239,72,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="239,103,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBlock HorizontalAlignment="Left" Margin="259,219,0,0" TextWrapping="Wrap" Text="Result" VerticalAlignment="Top"/>
+        <TextBox BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="23" Margin="239,72,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="23" Margin="239,103,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBlock FontWeight="Bold" HorizontalAlignment="Left" Margin="239,179,0,0" TextWrapping="Wrap" Text="Result" VerticalAlignment="Top" Width="92"/>
         <Button Content="Add" HorizontalAlignment="Left" Margin="94,168,0,0" VerticalAlignment="Top" Width="75"/>
         <Button Content="Substract" HorizontalAlignment="Left" Margin="94,192,0,0" VerticalAlignment="Top" Width="75"/>
         <Button Content="Multiply" HorizontalAlignment="Left" Margin="94,217,0,0" VerticalAlignment="Top" Width="75"/>
         <Button Content="Divide" HorizontalAlignment="Left" Margin="94,241,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="23" Margin="239,203,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Database" HorizontalAlignment="Left" Margin="526,0,0,0" FontSize="24" FontWeight="Bold" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="457,72,0,0" TextWrapping="Wrap" Text="Users" VerticalAlignment="Top"/>
+        <TextBox BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="23" Margin="508,66,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="251"/>
+        <TextBlock HorizontalAlignment="Left" Margin="457,103,0,0" TextWrapping="Wrap" Text="First Name" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="457,133,0,0" TextWrapping="Wrap" Text="Second Name" VerticalAlignment="Top"/>
+        <TextBox BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="23" Margin="566,99,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="193"/>
+        <TextBox BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="23" Margin="566,127,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="193"/>
+        <Button Content="Add Person" HorizontalAlignment="Left" Margin="587,202,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>
